@@ -1,0 +1,16 @@
+.scrollbar{
+    -webkit-scrollbar:hidden
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width:786px){
+    .navHide{
+        display: flex;
+        flex-direction:column;
+        overflow: hidden;
+        border:2px solid crimson;
+        
+    }
+    
+}
