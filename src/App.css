@@ -5,13 +5,7 @@
     display: none;
 }
 @media (max-width:786px){
-    .navHide{
-        display: flex;
-        flex-direction:column;
-        overflow: hidden;
-        border:2px solid crimson;
-        
-    }
+    
     .controlDiv{
         display: flex;
         flex-direction: column;
