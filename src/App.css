@@ -4,6 +4,37 @@
 ::-webkit-scrollbar {
     display: none;
 }
+/* You can include these classes directly in your CSS file or use them in your JSX with className attribute */
+@media (min-width: 768px) {
+    .navHide {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .navHide {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navHide > div {
+        display: flex;
+    }
+
+    .navHide > div:nth-child(6) {
+        position: relative;
+    }
+
+    .navHide > div:nth-child(6) > .absolute {
+        right: 0;
+    }
+
+    .navHide > div:hover > .absolute {
+        display: block;
+    }
+}
+
 @media (max-width:786px){
     
     .controlDiv{
