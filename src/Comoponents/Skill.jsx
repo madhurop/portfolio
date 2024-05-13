@@ -1,8 +1,10 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
+import { Fade } from 'react-awesome-reveal'
 
 function Skill() {
   return (
+    <Fade>
     <div className="w-full min-h-screen full flex flex-col  items-center">
         <div className="w-full flex justify-center items-center">
             <h1 className="text-5xl text-orange-400">Skills</h1>
@@ -29,6 +31,7 @@ function Skill() {
         </div>
       
     </div>
+    </Fade>
   )
 }
 
