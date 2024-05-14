@@ -8,18 +8,22 @@
 @media (min-width: 768px) {
     .navHide {
         display: flex;
+
+        
     }
 }
 
 @media (max-width: 767px) {
     .navHide {
-        display: none;
+        display: block;
+        
     }
 }
 
 @media (min-width: 768px) {
     .navHide > div {
         display: flex;
+        
     }
 
     .navHide > div:nth-child(6) {
