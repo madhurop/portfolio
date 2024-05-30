@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy:{
-      "/api/v1":"https://www.meesho.com"
+      "/dapi/data":"http://127.0.0.1:5000"
     },
   },
 })

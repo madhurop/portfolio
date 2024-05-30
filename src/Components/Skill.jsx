@@ -1,11 +1,13 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
 import { Fade } from 'react-awesome-reveal'
+import { Element } from 'react-scroll'
 
 function Skill() {
   return (
+    <Element name="skills">
     <Fade>
-    <div className="w-full min-h-screen full flex flex-col  items-center">
+    <div id="skills" className="w-full min-h-screen full flex flex-col  items-center">
         <div className="w-full flex justify-center items-center">
             <h1 className="text-5xl text-orange-400">Skills</h1>
         </div>
@@ -32,6 +34,7 @@ function Skill() {
       
     </div>
     </Fade>
+    </Element>
   )
 }
 

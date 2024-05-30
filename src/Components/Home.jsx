@@ -1,11 +1,13 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
+import { Element } from 'react-scroll';
 
 
 
 function Home() {
   return (
-    <div className="w-full  min-h-auto flex flex-col sm:flex-row text-white justify-between items-center">
+    <Element name="home">
+    <div id='home' className="w-full  min-h-auto flex flex-col sm:flex-row text-white justify-between items-center adjW">
       <div className="w-full sm:w-5/12  h-full  flex justify-center sm:items-center">
         <div className="min-w-full sm:w-full h-auto  flex flex-col justify-evenly gap-2 sm:gap-y-3">
 
@@ -25,6 +27,7 @@ function Home() {
       </div>
 
     </div>
+    </Element>
   )
 }
 

@@ -4,6 +4,9 @@
 ::-webkit-scrollbar {
     display: none;
 }
+.adjW{
+    height: 90vh;
+}
 /* You can include these classes directly in your CSS file or use them in your JSX with className attribute */
 @media (min-width: 768px) {
     .navHide {
