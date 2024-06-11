@@ -7,6 +7,7 @@ import About from './Components/About';
 import Skill from './Components/Skill';
 import { Element } from 'react-scroll';
 import Projects from './Components/Projects';
+import Gemini from './Components/Gemini';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Skill />
           </Element>
           <Projects />
+          
 
         </div>
       </div>

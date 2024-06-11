@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { ReactTyped } from "react-typed";
 import { Element } from 'react-scroll';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
 
 function Home() {
+  
+
   return (
     <Element name="home">
     <div id='home' className="w-full  min-h-auto flex flex-col sm:flex-row text-white justify-between items-center adjW">
